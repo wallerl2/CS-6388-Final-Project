@@ -1,0 +1,717 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE project SYSTEM "mga.dtd">
+
+<project guid="{EE0BD2C5-DB72-4CCA-A469-106F84BD79F8}" cdate="Sat Nov 28 00:06:24 2015" mdate="Sat Nov 28 00:06:24 2015" version="" metaguid="{59BEE2ED-0FBE-44D7-B3C4-042638B61C90}" metaversion="" metaname="RootFolder">
+	<name>RootFolder</name>
+	<comment></comment>
+	<author></author>
+	<folder id="id-006a-00000001" relid="0x1" childrelidcntr="0x2" kind="RootFolder" guid="{f3538f0d-c75a-48b5-b954-4d12aa538f2d}">
+		<name>RootFolder</name>
+		<model id="id-0065-00000001" kind="Industrial_Model" guid="{70157675-50fd-4051-939e-8cd8251cd717}" relid="0x1" childrelidcntr="0x1c">
+			<name>Industrial_Model</name>
+			<model id="id-0065-00000002" kind="Raft_Removal" role="Raft_Removal" guid="{08d82db4-437d-4fc6-b703-cc20bbd78c50}" relid="0x1" childrelidcntr="0x4">
+				<name>3-D Printed Raft Removal</name>
+				<regnode name="PartRegs" status="undefined">
+					<value></value>
+					<regnode name="CuttingElements" status="undefined">
+						<value></value>
+						<regnode name="Position" isopaque="yes">
+							<value>602,217</value>
+						</regnode>
+					</regnode>
+					<regnode name="FiresaleView" status="undefined">
+						<value></value>
+						<regnode name="Position" isopaque="yes">
+							<value>679,539</value>
+						</regnode>
+					</regnode>
+				</regnode>
+				<attribute kind="EmployeeRequired">
+					<value>true</value>
+				</attribute>
+				<attribute kind="Operable_Materials">
+					<value>[&quot;PLA Rafted Print&quot;]</value>
+				</attribute>
+				<attribute kind="ProcessType">
+					<value>3-D Printed Raft Removal</value>
+				</attribute>
+				<attribute kind="THREATDETECTED" status="meta">
+					<value>false</value>
+				</attribute>
+				<model id="id-0065-00000006" kind="HOUT_Human_Asset_Output_Port" role="HOUT_Human_Asset_Output_Port" guid="{def44401-96f1-40d6-b1f9-88c643429b5e}" relid="0x2" childrelidcntr="0x0">
+					<name>Employee</name>
+					<regnode name="PartRegs" status="undefined">
+						<value></value>
+						<regnode name="Aspect" status="undefined">
+							<value></value>
+							<regnode name="Position" isopaque="yes">
+								<value>35,42</value>
+							</regnode>
+						</regnode>
+					</regnode>
+					<attribute kind="Certifications">
+						<value>[&quot;3-D Printed Raft Removal, Cutter&quot;]</value>
+					</attribute>
+				</model>
+				<model id="id-0065-00000007" kind="POUT_Physical_Asset_Output_Port" role="POUT_Physical_Asset_Output_Port" guid="{938a66e1-2480-44ff-961e-0ae948fcf7e6}" relid="0x3" childrelidcntr="0x0">
+					<name>Machine Asset</name>
+					<regnode name="PartRegs" status="undefined">
+						<value></value>
+						<regnode name="Aspect" status="undefined">
+							<value></value>
+							<regnode name="Position" isopaque="yes">
+								<value>28,210</value>
+							</regnode>
+						</regnode>
+					</regnode>
+				</model>
+				<atom id="id-0066-00000001" kind="InputProduct" role="InputProduct" guid="{453de9cb-b740-4dc8-b37a-ce4b25472ede}" relid="0x1">
+					<name>InputProduct</name>
+					<regnode name="PartRegs" status="undefined">
+						<value></value>
+						<regnode name="Aspect" status="undefined">
+							<value></value>
+							<regnode name="Position" isopaque="yes">
+								<value>56,588</value>
+							</regnode>
+						</regnode>
+					</regnode>
+				</atom>
+				<atom id="id-0066-00000002" kind="OutputProduct" role="OutputProduct" guid="{2cceb953-5a9b-4f7a-8b23-5c2c4d874624}" relid="0x4">
+					<name>OutputProduct</name>
+					<regnode name="PartRegs" status="undefined">
+						<value></value>
+						<regnode name="Aspect" status="undefined">
+							<value></value>
+							<regnode name="Position" isopaque="yes">
+								<value>1050,532</value>
+							</regnode>
+						</regnode>
+					</regnode>
+				</atom>
+			</model>
+			<model id="id-0065-00000003" kind="ThreeD_Printing" role="ThreeD_Printing" guid="{83de9baf-4a46-43dd-b5c3-d08650ba8e29}" relid="0x2" childrelidcntr="0x7">
+				<name>3D Printing</name>
+				<regnode name="PartRegs" status="undefined">
+					<value></value>
+					<regnode name="FiresaleView" status="undefined">
+						<value></value>
+						<regnode name="Position" isopaque="yes">
+							<value>378,168</value>
+						</regnode>
+					</regnode>
+					<regnode name="FormingElements" status="undefined">
+						<value></value>
+						<regnode name="Position" isopaque="yes">
+							<value>175,189</value>
+						</regnode>
+					</regnode>
+				</regnode>
+				<attribute kind="EmployeeRequired">
+					<value>true</value>
+				</attribute>
+				<attribute kind="Operable_Materials">
+					<value>[&quot;PLA Filament&quot;]</value>
+				</attribute>
+				<attribute kind="ProcessType">
+					<value>3D Printing</value>
+				</attribute>
+				<attribute kind="THREATDETECTED">
+					<value>false</value>
+				</attribute>
+				<model id="id-0065-00000008" kind="OSO_Operating_System_Output_Port" role="OSO_Operating_System_Output_Port" guid="{9199ab13-e5f3-48a0-a369-3f8eb89b3697}" relid="0x1" childrelidcntr="0x0">
+					<name>OS Port</name>
+					<regnode name="PartRegs" status="undefined">
+						<value></value>
+						<regnode name="Aspect" status="undefined">
+							<value></value>
+							<regnode name="Position" isopaque="yes">
+								<value>28,546</value>
+							</regnode>
+						</regnode>
+					</regnode>
+				</model>
+				<model id="id-0065-00000009" kind="SOUT_Software_Output_Port" role="SOUT_Software_Output_Port" guid="{04818c33-e6b6-4055-9e6d-4782f5b129a4}" relid="0x2" childrelidcntr="0x0">
+					<name>Software Port</name>
+					<regnode name="PartRegs" status="undefined">
+						<value></value>
+						<regnode name="Aspect" status="undefined">
+							<value></value>
+							<regnode name="Position" isopaque="yes">
+								<value>42,343</value>
+							</regnode>
+						</regnode>
+					</regnode>
+				</model>
+				<model id="id-0065-0000000a" kind="POUT_Physical_Asset_Output_Port" role="POUT_Physical_Asset_Output_Port" guid="{be7297ef-6b61-4a92-805d-f9fe1627f4b0}" relid="0x3" childrelidcntr="0x0">
+					<name>Machine Asset</name>
+					<regnode name="PartRegs" status="undefined">
+						<value></value>
+						<regnode name="Aspect" status="undefined">
+							<value></value>
+							<regnode name="Position" isopaque="yes">
+								<value>14,168</value>
+							</regnode>
+						</regnode>
+					</regnode>
+				</model>
+				<model id="id-0065-0000000b" kind="HOUT_Human_Asset_Output_Port" role="HOUT_Human_Asset_Output_Port" guid="{fe9c81b3-9f1d-4e34-9add-b2105a0348e0}" relid="0x4" childrelidcntr="0x0">
+					<name>Employee</name>
+					<regnode name="PartRegs" status="undefined">
+						<value></value>
+						<regnode name="Aspect" status="undefined">
+							<value></value>
+							<regnode name="Position" isopaque="yes">
+								<value>28,14</value>
+							</regnode>
+						</regnode>
+					</regnode>
+					<attribute kind="Certifications">
+						<value>[&quot;3D Printing, AutoCAD Designer&quot;]</value>
+					</attribute>
+				</model>
+				<model id="id-0065-00000021" kind="HOUT_Human_Asset_Output_Port" role="HOUT_Human_Asset_Output_Port" guid="{9b42b240-fcbe-4658-9e12-28495ec4b49e}" relid="0x7" childrelidcntr="0x0">
+					<name>Manager</name>
+					<regnode name="PartRegs" status="undefined">
+						<value></value>
+						<regnode name="Aspect" status="undefined">
+							<value></value>
+							<regnode name="Position" isopaque="yes">
+								<value>182,21</value>
+							</regnode>
+						</regnode>
+					</regnode>
+					<attribute kind="Certifications">
+						<value>[&quot;ALL, Manager&quot;]</value>
+					</attribute>
+				</model>
+				<atom id="id-0066-00000003" kind="InputProduct" role="InputProduct" guid="{b681dcc0-b06b-4db0-8653-95fbed315993}" relid="0x5">
+					<name>InputProduct</name>
+					<regnode name="PartRegs" status="undefined">
+						<value></value>
+						<regnode name="Aspect" status="undefined">
+							<value></value>
+							<regnode name="Position" isopaque="yes">
+								<value>91,749</value>
+							</regnode>
+						</regnode>
+					</regnode>
+				</atom>
+				<atom id="id-0066-00000004" kind="OutputProduct" role="OutputProduct" guid="{27a1c28e-87e7-444d-8b67-c16a647a542c}" relid="0x6">
+					<name>OutputProduct</name>
+					<regnode name="PartRegs" status="undefined">
+						<value></value>
+						<regnode name="Aspect" status="undefined">
+							<value></value>
+							<regnode name="Position" isopaque="yes">
+								<value>1015,399</value>
+							</regnode>
+						</regnode>
+					</regnode>
+				</atom>
+			</model>
+			<model id="id-0065-00000004" kind="Human_Asset" role="Human_Asset" guid="{b9cb2759-afa3-48af-bec3-253abdca6e26}" relid="0x3" childrelidcntr="0x1">
+				<name>Steve Morgan, AutoCAD Designer</name>
+				<regnode name="PartRegs" status="undefined">
+					<value></value>
+					<regnode name="EmployeeView" status="undefined">
+						<value></value>
+						<regnode name="Position" isopaque="yes">
+							<value>154,91</value>
+						</regnode>
+					</regnode>
+					<regnode name="FiresaleView" status="undefined">
+						<value></value>
+						<regnode name="Position" isopaque="yes">
+							<value>98,49</value>
+						</regnode>
+					</regnode>
+				</regnode>
+				<attribute kind="Certifications">
+					<value>[&quot;3D Printing, AutoCAD Designer&quot;]</value>
+				</attribute>
+				<model id="id-0065-00000005" kind="HIN_Human_Asset_Input_Port" role="HIN_Human_Asset_Input_Port" guid="{43ffec46-064b-41c1-bc66-88ca052afb32}" relid="0x1" childrelidcntr="0x0">
+					<name>Employee</name>
+					<regnode name="PartRegs" status="undefined">
+						<value></value>
+						<regnode name="Aspect" status="undefined">
+							<value></value>
+							<regnode name="Position" isopaque="yes">
+								<value>994,259</value>
+							</regnode>
+						</regnode>
+					</regnode>
+				</model>
+			</model>
+			<model id="id-0065-0000000d" kind="IntermediateProduct" role="IntermediateProduct" guid="{0b9564d6-44db-4750-adf7-e031ae5457d0}" relid="0x5" childrelidcntr="0x3">
+				<name>Rafted Print, ct.</name>
+				<regnode name="PartRegs" status="undefined">
+					<value></value>
+					<regnode name="FiresaleView" status="undefined">
+						<value></value>
+						<regnode name="Position" isopaque="yes">
+							<value>616,301</value>
+						</regnode>
+					</regnode>
+					<regnode name="MaterialsView" status="undefined">
+						<value></value>
+						<regnode name="Position" isopaque="yes">
+							<value>560,378</value>
+						</regnode>
+					</regnode>
+				</regnode>
+				<attribute kind="Material">
+					<value>[&quot;PLA Rafted Print&quot;]</value>
+				</attribute>
+				<attribute kind="Quantity">
+					<value>1</value>
+				</attribute>
+				<attribute kind="THREATDETECTED">
+					<value>false</value>
+				</attribute>
+				<model id="id-0065-0000001a" kind="Product_Topology" role="Product_Topology" guid="{c090b5cf-dbbb-445a-9d8b-e97d84929474}" relid="0x3" childrelidcntr="0x3">
+					<name>Product Topology</name>
+					<regnode name="PartRegs" status="undefined">
+						<value></value>
+						<regnode name="Aspect" status="undefined">
+							<value></value>
+							<regnode name="Position" isopaque="yes">
+								<value>455,217</value>
+							</regnode>
+						</regnode>
+					</regnode>
+					<attribute kind="THREATDETECTED" status="meta">
+						<value>false</value>
+					</attribute>
+					<model id="id-0065-0000001b" kind="Vulnerability_Facet" role="Vulnerability_Facet" guid="{aa6ad084-f899-4506-9d52-bebed37e271d}" relid="0x1" childrelidcntr="0x1">
+						<name>Product Depth</name>
+						<regnode name="PartRegs" status="undefined">
+							<value></value>
+							<regnode name="Aspect" status="undefined">
+								<value></value>
+								<regnode name="Position" isopaque="yes">
+									<value>427,147</value>
+								</regnode>
+							</regnode>
+						</regnode>
+						<attribute kind="Process_Threats" status="meta">
+							<value>[]</value>
+						</attribute>
+						<attribute kind="THREATDETECTED" status="meta">
+							<value>false</value>
+						</attribute>
+						<model id="id-0065-0000001d" kind="Worst_Case_Scenario" role="Worst_Case_Scenario" guid="{d0036ec0-138c-4ecf-9fb5-1f7f8e4f27ff}" relid="0x1" childrelidcntr="0x0">
+							<name>Product depth could be decreased, causing structural weakness &gt;&gt; Product Disintegration</name>
+							<regnode name="PartRegs" status="undefined">
+								<value></value>
+								<regnode name="Aspect" status="undefined">
+									<value></value>
+									<regnode name="Position" isopaque="yes">
+										<value>427,168</value>
+									</regnode>
+								</regnode>
+							</regnode>
+							<attribute kind="WORSTCASESCENARIO" status="meta">
+								<value>false</value>
+							</attribute>
+						</model>
+					</model>
+					<model id="id-0065-0000001c" kind="Vulnerability_Facet" role="Vulnerability_Facet" guid="{2a293ff7-cbe9-4aaa-87de-bd571764fb80}" relid="0x2" childrelidcntr="0x2">
+						<name>Product Scaling</name>
+						<regnode name="PartRegs" status="undefined">
+							<value></value>
+							<regnode name="Aspect" status="undefined">
+								<value></value>
+								<regnode name="Position" isopaque="yes">
+									<value>427,280</value>
+								</regnode>
+							</regnode>
+						</regnode>
+						<attribute kind="Process_Threats" status="meta">
+							<value>[]</value>
+						</attribute>
+						<attribute kind="THREATDETECTED" status="meta">
+							<value>false</value>
+						</attribute>
+						<model id="id-0065-0000001f" kind="Worst_Case_Scenario" role="Worst_Case_Scenario" guid="{ac02d4ef-1919-4dad-b273-a386089e213b}" relid="0x1" childrelidcntr="0x0">
+							<name>Product could be decreased in size, won&apos;t interlock properly with other components &gt;&gt; Can&apos;t be used in larger product</name>
+							<regnode name="PartRegs" status="undefined">
+								<value></value>
+								<regnode name="Aspect" status="undefined">
+									<value></value>
+									<regnode name="Position" isopaque="yes">
+										<value>448,189</value>
+									</regnode>
+								</regnode>
+							</regnode>
+							<attribute kind="WORSTCASESCENARIO" status="meta">
+								<value>false</value>
+							</attribute>
+						</model>
+					</model>
+				</model>
+				<atom id="id-0066-00000006" kind="InputProduct" role="InputProduct" guid="{0565f1b9-16b5-4e0b-bbfa-92a74499041d}" relid="0x1">
+					<name>InputProduct</name>
+					<regnode name="PartRegs" status="undefined">
+						<value></value>
+						<regnode name="Aspect" status="undefined">
+							<value></value>
+							<regnode name="Position" isopaque="yes">
+								<value>49,301</value>
+							</regnode>
+						</regnode>
+					</regnode>
+				</atom>
+				<atom id="id-0066-00000007" kind="OutputProduct" role="OutputProduct" guid="{e288adeb-1d9c-4ea1-8c66-2131f620a4fd}" relid="0x2">
+					<name>OutputProduct</name>
+					<regnode name="PartRegs" status="undefined">
+						<value></value>
+						<regnode name="Aspect" status="undefined">
+							<value></value>
+							<regnode name="Position" isopaque="yes">
+								<value>1057,315</value>
+							</regnode>
+						</regnode>
+					</regnode>
+				</atom>
+			</model>
+			<model id="id-0065-0000000e" kind="FinishedProduct" role="FinishedProduct" guid="{57a893ed-7728-462e-83af-1080586ae5db}" relid="0x6" childrelidcntr="0x1">
+				<name>Finished 3-D Print, ct.</name>
+				<regnode name="PartRegs" status="undefined">
+					<value></value>
+					<regnode name="FiresaleView" status="undefined">
+						<value></value>
+						<regnode name="Position" isopaque="yes">
+							<value>896,357</value>
+						</regnode>
+					</regnode>
+					<regnode name="MaterialsView" status="undefined">
+						<value></value>
+						<regnode name="Position" isopaque="yes">
+							<value>896,371</value>
+						</regnode>
+					</regnode>
+				</regnode>
+				<attribute kind="Material">
+					<value>[&quot;Printed PLA&quot;]</value>
+				</attribute>
+				<attribute kind="Quantity">
+					<value>1</value>
+				</attribute>
+				<attribute kind="THREATDETECTED" status="meta">
+					<value>false</value>
+				</attribute>
+				<atom id="id-0066-00000008" kind="InputProduct" role="InputProduct" guid="{d58cca71-18a6-4ad7-b73f-c0dba78cb871}" relid="0x1">
+					<name>InputProduct</name>
+					<regnode name="PartRegs" status="undefined">
+						<value></value>
+						<regnode name="Aspect" status="undefined">
+							<value></value>
+							<regnode name="Position" isopaque="yes">
+								<value>28,294</value>
+							</regnode>
+						</regnode>
+					</regnode>
+				</atom>
+			</model>
+			<model id="id-0065-0000000f" kind="Makerbot_Software" role="Makerbot_Software" guid="{72e6cc50-f6e8-4e28-bc84-13ea509bb36c}" relid="0x9" childrelidcntr="0x1">
+				<name>Makerbot(TM) Software</name>
+				<regnode name="PartRegs" status="undefined">
+					<value></value>
+					<regnode name="FiresaleView" status="undefined">
+						<value></value>
+						<regnode name="Position" isopaque="yes">
+							<value>35,280</value>
+						</regnode>
+					</regnode>
+					<regnode name="SoftwareView" status="undefined">
+						<value></value>
+						<regnode name="Position" isopaque="yes">
+							<value>196,266</value>
+						</regnode>
+					</regnode>
+				</regnode>
+				<attribute kind="SandboxPrerequisites">
+					<value>[&quot;Windows XP, ANY&quot;, &quot;Windows Vista, ANY&quot;, &quot;Windows 7, &quot;ANY&quot;]</value>
+				</attribute>
+				<attribute kind="Software_Name">
+					<value>Makerbot Software</value>
+				</attribute>
+				<model id="id-0065-00000010" kind="SIN_Software_Input_Port" role="SIN_Software_Input_Port" guid="{12b246dc-ae34-4e26-9662-5558f73b48fb}" relid="0x1" childrelidcntr="0x0">
+					<name>Software Port</name>
+					<regnode name="PartRegs" status="undefined">
+						<value></value>
+						<regnode name="Aspect" status="undefined">
+							<value></value>
+							<regnode name="Position" isopaque="yes">
+								<value>994,385</value>
+							</regnode>
+						</regnode>
+					</regnode>
+				</model>
+			</model>
+			<model id="id-0065-00000011" kind="Makerbot_Replicator_Two" role="Makerbot_Replicator_Two" guid="{5e16b4b8-e392-49e4-a9f3-60017f9401ff}" relid="0xa" childrelidcntr="0x1">
+				<name>Makerbot Replicator2</name>
+				<regnode name="PartRegs" status="undefined">
+					<value></value>
+					<regnode name="FiresaleView" status="undefined">
+						<value></value>
+						<regnode name="Position" isopaque="yes">
+							<value>28,168</value>
+						</regnode>
+					</regnode>
+					<regnode name="MachineryView" status="undefined">
+						<value></value>
+						<regnode name="Position" isopaque="yes">
+							<value>77,238</value>
+						</regnode>
+					</regnode>
+				</regnode>
+				<attribute kind="Assoc_Processes">
+					<value>[&quot;3D Printing&quot;]</value>
+				</attribute>
+				<attribute kind="Operable_Materials">
+					<value>[&quot;PLA Filament&quot;]</value>
+				</attribute>
+				<model id="id-0065-00000012" kind="PIN_Physical_Asset_Input_Port" role="PIN_Physical_Asset_Input_Port" guid="{af6402f8-4533-487f-963f-b1133ab762ce}" relid="0x1" childrelidcntr="0x0">
+					<name>Machine Asset</name>
+					<regnode name="PartRegs" status="undefined">
+						<value></value>
+						<regnode name="Aspect" status="undefined">
+							<value></value>
+							<regnode name="Position" isopaque="yes">
+								<value>973,385</value>
+							</regnode>
+						</regnode>
+					</regnode>
+				</model>
+			</model>
+			<model id="id-0065-00000015" kind="Human_Asset" role="Human_Asset" guid="{16348fe5-2c99-414c-8b26-114a1afd4686}" relid="0x12" childrelidcntr="0x1">
+				<name>Bob Stewart, Floor Tech</name>
+				<regnode name="PartRegs" status="undefined">
+					<value></value>
+					<regnode name="EmployeeView" status="undefined">
+						<value></value>
+						<regnode name="Position" isopaque="yes">
+							<value>378,378</value>
+						</regnode>
+					</regnode>
+					<regnode name="FiresaleView" status="undefined">
+						<value></value>
+						<regnode name="Position" isopaque="yes">
+							<value>392,483</value>
+						</regnode>
+					</regnode>
+				</regnode>
+				<attribute kind="Certifications">
+					<value>[&quot;3-D Printed Raft Removal, Cutter&quot;]</value>
+				</attribute>
+				<model id="id-0065-00000016" kind="HIN_Human_Asset_Input_Port" role="HIN_Human_Asset_Input_Port" guid="{36399f25-862c-49cd-943f-b3a6251ef7f0}" relid="0x1" childrelidcntr="0x0">
+					<name>Employee</name>
+					<regnode name="PartRegs" status="undefined">
+						<value></value>
+						<regnode name="Aspect" status="undefined">
+							<value></value>
+							<regnode name="Position" isopaque="yes">
+								<value>413,343</value>
+							</regnode>
+						</regnode>
+					</regnode>
+				</model>
+			</model>
+			<model id="id-0065-00000017" kind="Physical_Asset" role="Physical_Asset" guid="{36a183bb-9537-405d-8da1-2a0e2e8f9c1b}" relid="0x14" childrelidcntr="0x1">
+				<name>Cutting Board</name>
+				<regnode name="PartRegs" status="undefined">
+					<value></value>
+					<regnode name="FiresaleView" status="undefined">
+						<value></value>
+						<regnode name="Position" isopaque="yes">
+							<value>392,581</value>
+						</regnode>
+					</regnode>
+					<regnode name="MachineryView" status="undefined">
+						<value></value>
+						<regnode name="Position" isopaque="yes">
+							<value>133,476</value>
+						</regnode>
+					</regnode>
+				</regnode>
+				<attribute kind="Assoc_Processes">
+					<value>[&quot;3-D Printed Raft Removal&quot;]</value>
+				</attribute>
+				<attribute kind="Operable_Materials">
+					<value>[&quot;PLA Rafted Print&quot;]</value>
+				</attribute>
+				<model id="id-0065-00000018" kind="PIN_Physical_Asset_Input_Port" role="PIN_Physical_Asset_Input_Port" guid="{d667ce0d-af03-4d32-b80f-101c4cca3ff7}" relid="0x1" childrelidcntr="0x0">
+					<name>Machine Asset</name>
+					<regnode name="PartRegs" status="undefined">
+						<value></value>
+						<regnode name="Aspect" status="undefined">
+							<value></value>
+							<regnode name="Position" isopaque="yes">
+								<value>945,336</value>
+							</regnode>
+						</regnode>
+					</regnode>
+				</model>
+			</model>
+			<model id="id-0065-00000019" kind="Polylactic_Acid_Filament" role="Polylactic_Acid_Filament" guid="{f81632ef-8792-4e9c-87d1-29a717cb65f6}" relid="0x17" childrelidcntr="0x1">
+				<name>Polylactic Acid Filament, meters</name>
+				<regnode name="PartRegs" status="undefined">
+					<value></value>
+					<regnode name="FiresaleView" status="undefined">
+						<value></value>
+						<regnode name="Position" isopaque="yes">
+							<value>42,567</value>
+						</regnode>
+					</regnode>
+					<regnode name="MaterialsView" status="undefined">
+						<value></value>
+						<regnode name="Position" isopaque="yes">
+							<value>98,525</value>
+						</regnode>
+					</regnode>
+				</regnode>
+				<attribute kind="Material">
+					<value>[&quot;PLA Filament&quot;]</value>
+				</attribute>
+				<attribute kind="Quantity">
+					<value>2</value>
+				</attribute>
+				<attribute kind="THREATDETECTED" status="meta">
+					<value>false</value>
+				</attribute>
+				<atom id="id-0066-00000009" kind="OutputProduct" role="OutputProduct" guid="{25cc9c2a-7103-407b-9eb3-4c2764d5676a}" relid="0x1">
+					<name>OutputProduct</name>
+					<regnode name="PartRegs" status="undefined">
+						<value></value>
+						<regnode name="Aspect" status="undefined">
+							<value></value>
+							<regnode name="Position" isopaque="yes">
+								<value>1064,413</value>
+							</regnode>
+						</regnode>
+					</regnode>
+				</atom>
+			</model>
+			<model id="id-0065-00000022" kind="Human_Asset" role="Human_Asset" guid="{ef920062-404b-47b9-bed1-e73f04eae12d}" relid="0x19" childrelidcntr="0x1">
+				<name>George Orwell, Manager</name>
+				<regnode name="PartRegs" status="undefined">
+					<value></value>
+					<regnode name="EmployeeView" status="undefined">
+						<value></value>
+						<regnode name="Position" isopaque="yes">
+							<value>420,84</value>
+						</regnode>
+					</regnode>
+					<regnode name="FiresaleView" status="undefined">
+						<value></value>
+						<regnode name="Position" isopaque="yes">
+							<value>343,28</value>
+						</regnode>
+					</regnode>
+				</regnode>
+				<attribute kind="Certifications">
+					<value>[&quot;ALL, Manager&quot;]</value>
+				</attribute>
+				<model id="id-0065-00000023" kind="HIN_Human_Asset_Input_Port" role="HIN_Human_Asset_Input_Port" guid="{18d5b99b-ed6e-4257-a94d-b0fd44d21079}" relid="0x1" childrelidcntr="0x0">
+					<name>Employee</name>
+					<regnode name="PartRegs" status="undefined">
+						<value></value>
+						<regnode name="Aspect" status="undefined">
+							<value></value>
+							<regnode name="Position" isopaque="yes">
+								<value>896,168</value>
+							</regnode>
+						</regnode>
+					</regnode>
+				</model>
+			</model>
+			<model id="id-0065-0000002c" kind="Indirect_Dependency" role="Indirect_Dependency" guid="{bb1c0818-b8ed-4751-ad77-2f75f158629d}" relid="0x1b" childrelidcntr="0x1">
+				<name>Indirect_Dependency</name>
+				<regnode name="PartRegs" status="undefined">
+					<value></value>
+					<regnode name="FiresaleView" status="undefined">
+						<value></value>
+						<regnode name="Position" isopaque="yes">
+							<value>35,413</value>
+						</regnode>
+					</regnode>
+					<regnode name="OperatingSystems" status="undefined">
+						<value></value>
+						<regnode name="Position" isopaque="yes">
+							<value>154,245</value>
+						</regnode>
+					</regnode>
+				</regnode>
+				<model id="id-0065-0000002d" kind="OSI_Operating_System_Input_Port" role="OSI_Operating_System_Input_Port" guid="{b338a6cc-fade-4143-8550-de756ba224ba}" relid="0x1" childrelidcntr="0x0">
+					<name>OS Port</name>
+					<regnode name="PartRegs" status="undefined">
+						<value></value>
+						<regnode name="Aspect" status="undefined">
+							<value></value>
+							<regnode name="Position" isopaque="yes">
+								<value>1022,364</value>
+							</regnode>
+						</regnode>
+					</regnode>
+				</model>
+			</model>
+			<connection id="id-0068-00000002" kind="Asset_To_Process_Connection" role="Asset_To_Process_Connection" guid="{bc59347e-d420-4aeb-919d-332cc27accfa}" relid="0x8">
+				<name>Asset_To_Process_Connection</name>
+				<connpoint role="src" target="id-0065-00000005"/>
+				<connpoint role="dst" target="id-0065-0000000b"/>
+			</connection>
+			<connection id="id-0068-00000003" kind="Asset_To_Process_Connection" role="Asset_To_Process_Connection" guid="{84556462-a17e-4957-b32b-2ebdff5f031b}" relid="0xb">
+				<name>Asset_To_Process_Connection</name>
+				<connpoint role="dst" target="id-0065-0000000a"/>
+				<connpoint role="src" target="id-0065-00000012"/>
+			</connection>
+			<connection id="id-0068-00000004" kind="Asset_To_Process_Connection" role="Asset_To_Process_Connection" guid="{8476201c-00fb-4ef1-add6-f924e7ec157d}" relid="0xc">
+				<name>Asset_To_Process_Connection</name>
+				<connpoint role="dst" target="id-0065-00000009"/>
+				<connpoint role="src" target="id-0065-00000010"/>
+			</connection>
+			<connection id="id-0068-00000007" kind="Interprocess_Transition" role="Interprocess_Transition" guid="{fea0e790-34b3-4ab4-a6ff-54f9e81a74ed}" relid="0x10">
+				<name>Interprocess_Transition</name>
+				<connpoint role="dst" target="id-0066-00000004"/>
+				<connpoint role="src" target="id-0066-00000006"/>
+			</connection>
+			<connection id="id-0068-00000008" kind="Interprocess_Transition" role="Interprocess_Transition" guid="{84ffeb67-12ce-4241-bae4-886e12e6d458}" relid="0x11">
+				<name>Interprocess_Transition</name>
+				<connpoint role="src" target="id-0066-00000001"/>
+				<connpoint role="dst" target="id-0066-00000007"/>
+			</connection>
+			<connection id="id-0068-00000009" kind="Asset_To_Process_Connection" role="Asset_To_Process_Connection" guid="{634e0276-80c1-48dc-acc3-dddeb518cb0e}" relid="0x13">
+				<name>Asset_To_Process_Connection</name>
+				<connpoint role="dst" target="id-0065-00000006"/>
+				<connpoint role="src" target="id-0065-00000016"/>
+			</connection>
+			<connection id="id-0068-0000000a" kind="Asset_To_Process_Connection" role="Asset_To_Process_Connection" guid="{14c63bde-d449-4d8a-8f19-aecb76524d03}" relid="0x15">
+				<name>Asset_To_Process_Connection</name>
+				<connpoint role="dst" target="id-0065-00000007"/>
+				<connpoint role="src" target="id-0065-00000018"/>
+			</connection>
+			<connection id="id-0068-0000000b" kind="Interprocess_Transition" role="Interprocess_Transition" guid="{c78e9382-fcac-47a4-9a72-89bc9de04b57}" relid="0x16">
+				<name>Interprocess_Transition</name>
+				<connpoint role="dst" target="id-0066-00000002"/>
+				<connpoint role="src" target="id-0066-00000008"/>
+			</connection>
+			<connection id="id-0068-0000000c" kind="Interprocess_Transition" role="Interprocess_Transition" guid="{3f22d41e-0cd6-4711-aee5-d0c98bf59038}" relid="0x18">
+				<name>Interprocess_Transition</name>
+				<connpoint role="src" target="id-0066-00000003"/>
+				<connpoint role="dst" target="id-0066-00000009"/>
+			</connection>
+			<connection id="id-0068-0000000d" kind="Asset_To_Process_Connection" role="Asset_To_Process_Connection" guid="{43d8d7d4-6b28-442a-907e-a40763ee84c3}" relid="0x1a">
+				<name>Asset_To_Process_Connection</name>
+				<connpoint role="dst" target="id-0065-00000021"/>
+				<connpoint role="src" target="id-0065-00000023"/>
+			</connection>
+			<connection id="id-0068-00000010" kind="Asset_To_Process_Connection" role="Asset_To_Process_Connection" guid="{18b57648-96a2-49e9-b951-32fd2d2a390f}" relid="0x1c">
+				<name>Asset_To_Process_Connection</name>
+				<connpoint role="dst" target="id-0065-00000008"/>
+				<connpoint role="src" target="id-0065-0000002d"/>
+			</connection>
+		</model>
+	</folder>
+</project>
